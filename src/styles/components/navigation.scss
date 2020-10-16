@@ -1,0 +1,27 @@
+.cp.navigation{
+  width: 100%;
+  top: 2rem;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  a {
+    color: #0088cc;
+  }
+
+  &.net a {
+    color: #ce0014
+  }
+
+  svg {
+    display: block;
+    fill: currentColor;
+  }
+
+  select {
+    width: 15rem;
+  }
+}

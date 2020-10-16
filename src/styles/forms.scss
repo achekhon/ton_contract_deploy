@@ -1,0 +1,31 @@
+.textarea {
+  font-size: .9rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.file {
+  .file-cta {
+    min-width: 12rem;
+    justify-content: center;
+
+    .file-label {
+      width: auto;
+    }
+  }
+}
+
+.field .label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.confirms .control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  input {
+    margin: 0 .5rem;
+  }
+}

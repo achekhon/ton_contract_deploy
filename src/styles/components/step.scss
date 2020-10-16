@@ -1,0 +1,48 @@
+.step {
+  width: 40rem;
+  margin: 0 auto;
+  position: relative;
+
+  h1 {
+    display: flex;
+    align-items: center;
+
+    .icon {
+      margin: 0 .5rem 0 0;
+    }
+  }
+
+  .bottom {
+    @extend .noselect;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0 !important;
+
+    .inner {
+      display: flex;
+      align-items: center;
+    }
+
+    > span,
+    > .button {
+      margin: 0 1rem 0 0;
+    }
+  }
+
+  .button.is-text {
+    bottom: .65rem;
+    right: 1.25rem;
+    margin: 0;
+    position: absolute;
+  }
+
+  .success {
+    display: flex;
+    align-items: center;
+  }
+
+  .push {
+    margin-top: 0.75rem;
+    margin-bottom: 3.5rem;
+  }
+}

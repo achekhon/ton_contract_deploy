@@ -1,0 +1,15 @@
+@import './forms';
+@import './mixins';
+@import './layout/main';
+@import './components/main';
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
